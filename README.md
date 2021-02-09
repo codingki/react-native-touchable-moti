@@ -10,7 +10,7 @@
 
 ## Installation
 
-This component uses Moti, which uses Reanimated 2 so you need to install Moti and Reanimated 2.
+This component uses [Moti](https://moti.vercel.app/), which uses Reanimated 2 so you need to install Moti and Reanimated 2.
 
 ### 1. Install Moti
 
@@ -66,3 +66,9 @@ You can use it as a wrapper too, like this
     	    <Text style={styles.text}>Press me!</Text>
         </View>
     </TouchableLift>
+
+Big thanks for [Fernando Rojo](https://twitter.com/fernandotherojo)
+
+Try [Moti](https://moti.vercel.app/)
+
+Reach me on twitter [@kikiding](https://twitter.com/kikiding)
