@@ -1,0 +1,34 @@
+{
+	"name": "react-native-touchable-moti",
+	"version": "1.0.0",
+	"description": "React Native Touchable with Custom Animations",
+	"main": "index.tsx",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"react-native",
+		"touchable",
+		"pressable",
+		"moti",
+		"button",
+		"animation",
+		"touchablescale",
+		"touchablespring"
+	],
+	"devDependencies": {
+		"@babel/core": "~7.9.0",
+		"@types/react": "~16.9.35",
+		"@types/react-dom": "~16.9.8",
+		"@types/react-native": "~0.63.2",
+		"moti": "^0.4.1",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+		"react-native-reanimated": "^2.0.0-rc.0",
+		"react-native-web": "~0.13.12",
+		"typescript": "~4.0.0"
+	},
+	"author": "codingki",
+	"license": "MIT"
+}
