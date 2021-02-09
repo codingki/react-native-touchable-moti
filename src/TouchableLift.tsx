@@ -26,7 +26,13 @@ export default function TouchableLift(props: Props) {
 	};
 	return (
 		<Pressable {...other} onPressIn={pressedIn} onPressOut={pressedOut}>
-			<View {...style} state={animationState}>
+			<View
+				{...style}
+				state={animationState}
+				transition={{
+					type: 'timing',
+				}}
+			>
 				{props.children}
 			</View>
 		</Pressable>
