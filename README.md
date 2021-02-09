@@ -1,6 +1,6 @@
 # React Native Animated Touchable Component
 
-![Preview](https://im.ezgif.com/tmp/ezgif-1-cd64b6e2229e.gif)
+![Preview](preview.gif)
 
 # Documentation
 
