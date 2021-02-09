@@ -16,6 +16,14 @@
 		"touchablescale",
 		"touchablespring"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/codingki/react-native-touchable-moti.git"
+	},
+	"bugs": {
+		"url": "https://github.com/codingki/react-native-touchable-moti/issues"
+	},
+	"homepage": "https://github.com/codingki/react-native-touchable-moti#readme",
 	"devDependencies": {
 		"@babel/core": "~7.9.0",
 		"@types/react": "~16.9.35",
@@ -29,6 +37,6 @@
 		"react-native-web": "~0.13.12",
 		"typescript": "~4.0.0"
 	},
-	"author": "codingki",
+	"author": "Nur Fikri",
 	"license": "MIT"
 }
