@@ -1,6 +1,6 @@
 # React Native Animated Touchable Component
 
-![Preview](https://im.ezgif.com/tmp/ezgif-1-cd64b6e2229e.gif)
+![Preview](preview.gif)
 
 # Documentation
 
@@ -29,6 +29,10 @@ You'll need at least [Expo SDK 40](https://docs.expo.io/workflow/upgrading-expo-
 ### If you aren't using Expo
 
 Please follow Reanimated's [installation instructions](https://docs.swmansion.com/react-native-reanimated/docs/installation) for v2.
+
+### Install the package
+
+    npm install react-native-touchable-moti
 
 ## Props
 
@@ -63,5 +67,3 @@ You can use it as a wrapper too, like this
     	    <Text style={styles.text}>Press me!</Text>
         </View>
     </TouchableLift>
-
-
