@@ -39,7 +39,6 @@ Please follow Reanimated's [installation instructions](https://docs.swmansion.co
 | Props                                                          | Required | TochableScale Default Value | TouchableLift Default Value |
 | -------------------------------------------------------------- | -------- | --------------------------- | --------------------------- |
 | [PressableProps](https://reactnative.dev/docs/pressable#props) |          |                             |                             |
-| style                                                          | yes      |                             |                             |
 | value                                                          | no       | 1.1                         | -10                         |
 
 ## Usage
