@@ -39,7 +39,6 @@ Please follow Reanimated's [installation instructions](https://docs.swmansion.co
 | Props                                                          | Required | TochableScale Default Value | TouchableLift Default Value |
 | -------------------------------------------------------------- | -------- | --------------------------- | --------------------------- |
 | [PressableProps](https://reactnative.dev/docs/pressable#props) |          |                             |                             |
-| style                                                          | yes      |                             |                             |
 | value                                                          | no       | 1.1                         | -10                         |
 
 ## Usage
@@ -50,22 +49,20 @@ Please follow Reanimated's [installation instructions](https://docs.swmansion.co
 
 ### TouchableScale
 
-    <TouchableScale style={styles.button}>
+    <TouchableScale style={styles.button} onPress={}>
         <Text style={styles.text}>Press me!</Text>
     </TouchableScale>
 
 ### TouchableLift
 
-    <TouchableLift style={styles.button}>
+    <TouchableLift style={styles.button} onPress={}>
         <Text style={styles.text}>Press me!</Text>
     </TouchableLift>
 
 You can use it as a wrapper too, like this
 
-    <TouchableLift onPress={()=>{console.log('Pressed')}>
+    <TouchableLift onPress={}>
         <View style={styles.button}>
     	    <Text style={styles.text}>Press me!</Text>
         </View>
     </TouchableLift>
-
-
