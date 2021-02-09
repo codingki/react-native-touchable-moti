@@ -4,7 +4,7 @@ import { Pressable, PressableProps, ViewStyle } from 'react-native';
 
 interface Props extends Omit<PressableProps, 'style'> {
 	value?: number;
-	style?: ViewStyle
+	style?: ViewStyle;
 }
 
 export default function TouchableLift(props: Props) {
