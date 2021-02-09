@@ -67,7 +67,7 @@ You can use it as a wrapper too, like this
         </View>
     </TouchableLift>
 
-Big thanks for [Fernando Rojo](https://twitter.com/fernandotherojo)
+Big thanks to [Fernando Rojo](https://twitter.com/fernandotherojo)
 
 Try [Moti](https://moti.vercel.app/)
 
