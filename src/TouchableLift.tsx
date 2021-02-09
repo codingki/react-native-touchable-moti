@@ -1,9 +1,10 @@
 import { View, useAnimationState } from 'moti';
 import React from 'react';
-import { Pressable, PressableProps } from 'react-native';
+import { Pressable, PressableProps, ViewStyle } from 'react-native';
 
-interface Props extends PressableProps {
+interface Props extends Omit<PressableProps, 'style'> {
 	value?: number;
+	style?: ViewStyle
 }
 
 export default function TouchableLift(props: Props) {
@@ -27,7 +28,7 @@ export default function TouchableLift(props: Props) {
 	return (
 		<Pressable {...other} onPressIn={pressedIn} onPressOut={pressedOut}>
 			<View
-				{...style}
+				style={style}
 				state={animationState}
 				transition={{
 					type: 'timing',
