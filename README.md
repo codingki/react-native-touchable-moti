@@ -4,9 +4,15 @@
 
 # Documentation
 
+- [Example](#Example)
 - [Installation](#Installation)
+- [Web Support](#Web)
 - [Props](#Props)
 - [Usage](#Usage)
+
+## Example
+
+[Example](https://github.com/codingki/react-native-touchable-moti)
 
 ## Installation
 
@@ -33,6 +39,10 @@ Please follow Reanimated's [installation instructions](https://docs.swmansion.co
 ### 3. Install the package
 
     npm install react-native-touchable-moti
+
+## Web
+
+Follow this instruction [https://moti.fyi/web](https://moti.fyi/web)
 
 ## Props
 
