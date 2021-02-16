@@ -1,6 +1,6 @@
 {
 	"name": "react-native-touchable-moti",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "React Native Touchable with Custom Animations",
 	"main": "index.tsx",
 	"scripts": {
